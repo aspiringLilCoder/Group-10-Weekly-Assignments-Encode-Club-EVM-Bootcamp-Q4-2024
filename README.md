@@ -23,6 +23,8 @@ or
 ```sh
 npx hardhat run ./scripts/<your name>/<your script>.ts 
 ```
+**6. commit when you're done 💖**
+
 ---
 
 # Week 1: 🗳️Ballot
