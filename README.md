@@ -23,7 +23,7 @@ or
 ```sh
 npx hardhat run ./scripts/<your name>/<your script>.ts 
 ```
-**6. commit when you're done 💖**
+**6. commit and push changes when you're done 💖**
 
 ---
 
