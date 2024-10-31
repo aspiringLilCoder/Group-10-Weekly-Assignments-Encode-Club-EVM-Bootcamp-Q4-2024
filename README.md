@@ -27,7 +27,7 @@ npx hardhat run ./scripts/<your name>/<your script>.ts
 
 ---
 
-# Week 1: 🗳️Ballot
+# Week 2: 🗳️Ballot
 
 ---
 
