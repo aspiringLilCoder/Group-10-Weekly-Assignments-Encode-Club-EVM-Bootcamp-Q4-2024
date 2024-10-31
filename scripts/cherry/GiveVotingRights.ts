@@ -9,8 +9,8 @@ const providerApiKey = process.env.ALCHEMY_API_KEY || "";
 const deployerPrivateKey = process.env.PRIVATE_KEY || "";
 
 async function main() {
-  const addressesOfToBeVoters = process.argv.slice(2);
-  console.log("Addresses of to be voters:", addressesOfToBeVoters);
+  const addressOfToBeVoter = process.argv.slice(2)[0];
+  console.log("Address of to be voter:", addressOfToBeVoter);
 
   /////////////////
 
@@ -27,21 +27,19 @@ async function main() {
 
   ////////////////
 
-  addressesOfToBeVoters.forEach(async (address) => {
-    if (!/^0x[a-fA-F0-9]{40}$/.test(address))
-      throw new Error("Invalid address");
+  if (!/^0x[a-fA-F0-9]{40}$/.test(addressOfToBeVoter))
+    throw new Error("Invalid address");
 
-    const hash = await chairperson.writeContract({
-      address: "0xF3321189517dB33AEB893f23b8923e52a33eb997",
-      abi,
-      functionName: "giveRightToVote",
-      args: [address],
-    });
-    console.log("Transaction hash:", hash);
-    console.log("Waiting for confirmations...");
-    const receipt = await publicClient.waitForTransactionReceipt({ hash });
-    console.log("Transaction confirmed");
+  const hash = await chairperson.writeContract({
+    address: "0xF3321189517dB33AEB893f23b8923e52a33eb997",
+    abi,
+    functionName: "giveRightToVote",
+    args: [addressOfToBeVoter],
   });
+  console.log("Transaction hash:", hash);
+  console.log("Waiting for confirmations...");
+  const receipt = await publicClient.waitForTransactionReceipt({ hash });
+  console.log("Transaction confirmed");
 }
 
 main().catch((error) => {
