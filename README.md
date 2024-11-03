@@ -26,19 +26,7 @@
 | 8|@gleb  |./scripts/gleb/<br>ReadWinningProposals.ts   |             |winnerName     |winnerNameResponse is of type “unknown” and needs to asserted                                                        ||
 | 9|@gleb  |./scripts/gleb/<br>DelegateVote.ts           |0x19c650...  |delegate       |ContractFunctionRevertedError: The contract function "delegate" reverted with the following reason: You already voted.||
 
---- 
 
-## Team members 
-
-We refer the members by their discord username for simplicity.
-
-| ID    |  Discord Username   |
-|---------|-------------------|
-| 6mzqes | @gleb       |
-| alV3N1 | @mikelowrey       |
-| yzw5TZ | @cherry        |
-| vMwSYm  | @altinburak      |
-| 64eDmh   | @Giovanni C      |
 
 ---
 
@@ -58,6 +46,20 @@ We refer the members by their discord username for simplicity.
 |--|-------|---------------------------------------------|-----------|------------------|------------------------------|---------|
 | 1|@mikelowrey|./scripts/michael/<br>DeployWithViem.ts|"test voting script"|Contract<br>creation<br>(0x60806040)|Deployed contract with name|[0x5fde6d...](https://sepolia.etherscan.io/tx/0x5fde6d5dd76aa88f362b518971bf711e0379fda7c6ca6f230d487d8b18be75e3)|
 | 2|@mikelowrey|./scripts/michael/<br>GiveVotingRights.ts  |"0xC2b8d3..."|giveRightToVote|Gave voting rights to team mates|[0x9fd0ad...](https://sepolia.etherscan.io/tx/0x9fd0ad43c9ceb7187534c9f3983351ccbe9216767034612357da3b9ee9015ee2)|
+
+--- 
+
+## 🧑‍💻Team members:
+
+We refer the members by their discord username for simplicity.
+
+| ID    |  Discord Username   |
+|---------|-------------------|
+| 6mzqes | @gleb       |
+| alV3N1 | @mikelowrey       |
+| yzw5TZ | @cherry        |
+| vMwSYm  | @altinburak      |
+| 64eDmh   | @Giovanni C      |
 
 ---
 
