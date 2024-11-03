@@ -32,7 +32,7 @@
 ## ➕ Additional:
 We actually had an earlier instance of the HelloWorld contract created by @gleb with his revert/error experiments so here's the report for that and explanation of why we had to create a new contract!
 
-📍 Contract Address: 0x6f274797cFAF4f0E1aF3538a9F062Ca3fC382230 ([Etherscan Link](https://sepolia.etherscan.io/address/0x852C28a7Fe94926ac127FF76F7e687BE0E9BB486))
+📍 Contract Address: 0x6f274797cFAF4f0E1aF3538a9F062Ca3fC382230 ([Etherscan Link](https://sepolia.etherscan.io/address/0x6f274797cFAF4f0E1aF3538a9F062Ca3fC382230))
 
 📋 Etherscan Transactions Screenshot:
 
