@@ -24,6 +24,7 @@
     "solidity-coverage": "^0.8.13",
     "ts-node": "^10.9.2",
     "typescript": "^5.0.4",
+<<<<<<< HEAD
     "viem": "^2.21.38"
   },
   "dependencies": {
