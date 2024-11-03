@@ -26,6 +26,9 @@
     "typescript": "^5.0.4",
 <<<<<<< HEAD
     "viem": "^2.21.38"
+=======
+    "viem": "^2.21.35"
+>>>>>>> cde9fbce5c9e0a55b7d0ac661bd6634df56edc29
   },
   "dependencies": {
     "dotenv": "^16.4.5",
