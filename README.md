@@ -27,6 +27,8 @@
 | 8 | @altinburak        | transferOwnership(“0x3Da4dC...”)       | transferOwnership is called and @mikelowrey is set as the new owner.        | [0x57c901...](https://sepolia.etherscan.io/tx/0x57c90140cbd45f80e4b57b71f468573cc4d8d2a62d99b56658f2bd06b69fc9c8)              |
 | 9 | @altinburak        |  transferOwnership()     |I’ve tried to transferOwnership to test the revert but it's stucks in pending in Sepolia. Everything works fine in Remix VM environment. I’ve created an [issue in github](https://github.com/Encode-Club-Solidity-Bootcamp/Lesson-04/issues/34).|    |
 
+Report Draft: https://docs.google.com/document/d/1cBkeC-qGlhLAKCa4rxaCjYU9i0ANbjBtxXK8fwCSiJQ/edit?tab=t.0
+
 --- 
 
 ## ➕ Additional:
