@@ -26,7 +26,7 @@
 | 8|@gleb  |./scripts/gleb/<br>ReadWinningProposals.ts   |             |winnerName     |winnerNameResponse is of type “unknown” and needs to asserted                                                        ||
 | 9|@gleb  |./scripts/gleb/<br>DelegateVote.ts           |0x19c650...  |delegate       |ContractFunctionRevertedError: The contract function "delegate" reverted with the following reason: You already voted.||
 
-
+Report Draft: https://docs.google.com/document/d/17uFSlLfZApSWPZ_9dsUHm3yfdNa2w7M6RR0gyiQr7r8/edit?tab=t.0
 
 ---
 
