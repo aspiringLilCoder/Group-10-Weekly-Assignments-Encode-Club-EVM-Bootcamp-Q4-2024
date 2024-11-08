@@ -3,8 +3,6 @@ import {
   http,
   createWalletClient,
   formatEther,
-  parseEther,
-  getContract,
 } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
 import { sepolia } from "viem/chains";

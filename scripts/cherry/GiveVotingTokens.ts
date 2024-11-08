@@ -1,10 +1,4 @@
-import {
-  createPublicClient,
-  http,
-  createWalletClient,
-  hexToString,
-  parseEther,
-} from "viem";
+import { createPublicClient, http, createWalletClient, parseEther } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
 import { sepolia } from "viem/chains";
 import { abi } from "../../artifacts/contracts/MyERC20Votes.sol/MyToken.json";
