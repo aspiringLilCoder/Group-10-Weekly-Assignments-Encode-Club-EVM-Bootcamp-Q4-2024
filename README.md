@@ -41,7 +41,7 @@ We refer the members by their discord username for simplicity.
 ```sh
 git clone https://github.com/aspiringLilCoder/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024.git
 cd Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024
-git checkout Week-2
+git checkout Week-3
 npm install
 ```
 **2. create and fill in the** `.env` **file**
