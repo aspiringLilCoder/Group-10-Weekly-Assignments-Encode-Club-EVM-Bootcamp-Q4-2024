@@ -1,22 +1,19 @@
+import * as dotenv from "dotenv";
 import {
   createPublicClient,
-  http,
   createWalletClient,
-  hexToString,
-  parseEther,
+  http
 } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
 import { sepolia } from "viem/chains";
-import { abi } from "../../artifacts/contracts/MyERC20Votes.sol/MyToken.json";
-import * as dotenv from "dotenv";
+import { abi } from "../../../artifacts/contracts/TokenizedBallot.sol/TokenizedBallot.json";
+import { contractAddress } from "./constants";
 dotenv.config();
 
 const providerApiKey = process.env.ALCHEMY_API_KEY || "";
 const deployerPrivateKey = process.env.PRIVATE_KEY || "";
 
 async function main() {
-  // Contract address
-  const contractAddress = "0x85d57140a0db24d45ee2bb3379e548d1253bfa36";
   if (!contractAddress) throw new Error("Contract address not provided");
   if (!/^0x[a-fA-F0-9]{40}$/.test(contractAddress))
     throw new Error("Invalid contract address");
@@ -34,18 +31,28 @@ async function main() {
     transport: http(`https://eth-sepolia.g.alchemy.com/v2/${providerApiKey}`),
   });
 
-  // Delegate to self
+  // Read all proposals
+  const proposals = await publicClient.readContract({
+    address: contractAddress,
+    abi: abi,
+    functionName: "proposals",
+    args: [0n],
+  }) as [string, bigint];
+
+  console.log("Proposals:", proposals[0]);
+
+  // Vote for proposal 0 with 1 vote
   const delegateTx = await deployer.writeContract({
     address: contractAddress,
     abi: abi,
-    functionName: "delegate",
-    args: [deployer.account.address],
+    functionName: "vote",
+    args: [0n, 1n],
   });
 
   console.log("Transaction hash:", delegateTx);
   console.log("Waiting for confirmations...");
-  await publicClient.waitForTransactionReceipt({ hash: delegateTx });
-  console.log("Transaction confirmed");
+  const receipt = await publicClient.waitForTransactionReceipt({ hash: delegateTx });
+  console.log("Transaction confirmed", receipt);
 }
 
 main().catch((error) => {
