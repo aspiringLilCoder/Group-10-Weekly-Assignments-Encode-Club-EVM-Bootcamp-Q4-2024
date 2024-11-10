@@ -18,7 +18,7 @@ async function main() {
   // Create public cient and wallet client
   const publicClient = createPublicClient({
     chain: sepolia,
-    transport: http(providerApiKey),
+    transport: http(`https://eth-sepolia.g.alchemy.com/v2/${providerApiKey}`),
   });
 
   const account = privateKeyToAccount(`0x${deployerPrivateKey}`);

@@ -1,10 +1,4 @@
-import {
-  createPublicClient,
-  http,
-  createWalletClient,
-  hexToString,
-  parseEther,
-} from "viem";
+import { createPublicClient, http, createWalletClient } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
 import { sepolia } from "viem/chains";
 import { abi } from "../../artifacts/contracts/MyERC20Votes.sol/MyToken.json";
@@ -24,7 +18,7 @@ async function main() {
   // Create public cient and wallet client
   const publicClient = createPublicClient({
     chain: sepolia,
-    transport: http(providerApiKey),
+    transport: http(`https://eth-sepolia.g.alchemy.com/v2/${providerApiKey}`),
   });
 
   const account = privateKeyToAccount(`0x${deployerPrivateKey}`);
