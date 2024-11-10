@@ -3,6 +3,9 @@
 ---
 
 ## 📍 Contract Address: 
+**MyToken:** 0x85D57140a0dB24D45ee2bB3379e548D1253BFA36 ([Etherscan Link](https://sepolia.etherscan.io/address/0x85d57140a0db24d45ee2bb3379e548d1253bfa36))
+<br><br>
+**TokenizedBallot:** 
 
 ---
 
@@ -13,8 +16,7 @@
 || User | Scripts Ran | Arguments | Function Called | User Description | Tx Hash |
 |--|-------|---------------------------------------------|-----------|------------------|------------------------------|---------|
 
-
-
+Report Draft: https://docs.google.com/document/d/1v2rhj_Qc9P356JfZFoYqWyCoiajUx841BOT7BCm-HuQ/edit?tab=t.0
 
 ---
 
