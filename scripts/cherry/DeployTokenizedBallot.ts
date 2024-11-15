@@ -63,7 +63,7 @@ async function main() {
     args: [
       proposals.map((prop) => toHex(prop, { size: 32 })),
       myTokenContractAddress,
-      blockNumber,
+      blockNumber - 1n,
     ],
   });
   console.log("Transaction hash:", deployTxHash);
