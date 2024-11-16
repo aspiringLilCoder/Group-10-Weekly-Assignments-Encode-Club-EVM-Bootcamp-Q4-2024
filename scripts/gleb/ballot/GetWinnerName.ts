@@ -1,6 +1,7 @@
 import * as dotenv from "dotenv";
 import {
   createPublicClient,
+  hexToString,
   http
 } from "viem";
 import { sepolia } from "viem/chains";
@@ -29,7 +30,7 @@ async function main() {
     functionName: "winnerName",
   });
 
-  console.log("Read successfully:", readReceipt);
+  console.log("Read successfully:", hexToString(readReceipt as `0x${string}`));
 }
 
 main().catch((error) => {

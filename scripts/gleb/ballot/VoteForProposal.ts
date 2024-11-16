@@ -46,7 +46,7 @@ async function main() {
     address: contractAddress,
     abi: abi,
     functionName: "vote",
-    args: [0n, 1n],
+    args: [2n, 1n],
   });
 
   console.log("Transaction hash:", delegateTx);
