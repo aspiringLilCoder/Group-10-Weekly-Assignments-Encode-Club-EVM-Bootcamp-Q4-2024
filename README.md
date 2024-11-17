@@ -55,12 +55,12 @@
 ## 📄Report of the @gleb's TokenizedBallot Contract:
 | | Scripts Ran | Args | Function Called | User Description | Tx Hash |
 |--|----------------------------------------------------|-----------|------------------|------------------------------|---------|
-| 1|./scripts/gleb/<br>DeployTokenizedBallot.ts  ||Contract<br>creation<br>(0x60806040)|Deployed TokenizedBallot contract to ([0x322a8b...](https://sepolia.etherscan.io/address/0x322a8b96f45454a4772d5dc4bc73d35b24403f03))|[0x72d62f..](https://sepolia.etherscan.io/tx/0x72d62f9d8fe16de9bb708902a62b8031e0e2d1f8d471c85e59881cedcda7dc31)|
-| 2|./scripts/gleb/<br>GetVotePower.ts   ||getVotePower |Have 2 votes in the ballot contract||
-| 3|./scripts/gleb/<br>GetWinnerName.ts     ||winnerName|If no votes were made the first proposal is the winner||
-| 4|./scripts/gleb/<br>VoteForProposal.ts   |"2n"|vote       ||[0x81046c](https://sepolia.etherscan.io/tx/0x81046c9b0f7b3a318bbeff26014a5900f2fd5db1bcdc81a9819758282d2814b7)|
-| 5|./scripts/gleb/<br>GetWinnerName.ts  |  |winnerName       |Another proposal is a winner now||
-| 6|./scripts/gleb/<br>GetWinnerProposal.ts |  |winningProposal       |||
+| 1|./scripts/gleb/ballot/<br>DeployTokenizedBallot.ts  ||Contract<br>creation<br>(0x60806040)|Deployed TokenizedBallot contract to ([0x322a8b...](https://sepolia.etherscan.io/address/0x322a8b96f45454a4772d5dc4bc73d35b24403f03))|[0x72d62f..](https://sepolia.etherscan.io/tx/0x72d62f9d8fe16de9bb708902a62b8031e0e2d1f8d471c85e59881cedcda7dc31)|
+| 2|./scripts/gleb/ballot/<br>GetVotePower.ts   ||getVotePower |Have 2 votes in the ballot contract||
+| 3|./scripts/gleb/ballot/<br>GetWinnerName.ts     ||winnerName|If no votes were made the first proposal is the winner||
+| 4|./scripts/gleb/ballot/<br>VoteForProposal.ts   |"2n"|vote       ||[0x81046c](https://sepolia.etherscan.io/tx/0x81046c9b0f7b3a318bbeff26014a5900f2fd5db1bcdc81a9819758282d2814b7)|
+| 5|./scripts/gleb/ballot/<br>GetWinnerName.ts  |  |winnerName       |Another proposal is a winner now||
+| 6|./scripts/gleb/ballot/<br>GetWinnerProposal.ts |  |winningProposal       |||
 
 <br>
 
