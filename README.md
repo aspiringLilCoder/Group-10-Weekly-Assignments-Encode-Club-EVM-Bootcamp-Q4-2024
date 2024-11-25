@@ -2,6 +2,28 @@
 
 ---
 
+## 👀 Submissions:
+
+* @cherry:
+  * [GitHub Repo link with implementation](https://github.com/aspiringLilCoder/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024/tree/Week-4-Cherry)
+  * [Deployed TokenizedBallot Etherscan link](https://sepolia.etherscan.io//address/0xCFF30Ee654b977297d78F4Be1AAbb77A1CB7B913)
+
+--- 
+
+## 🧑‍💻Team members:
+
+We refer the members by their discord username for simplicity.
+
+| ID    |  Discord Username   |
+|---------|-------------------|
+| 6mzqes | @gleb       |
+| alV3N1 | @mikelowrey       |
+| yzw5TZ | @cherry        |
+| vMwSYm  | @altinburak      |
+| 64eDmh   | @Giovanni C      |
+
+---
+
 ### Set up instructions for Group Members:
 ### 1. FORK the repo and run the following
 ```sh
