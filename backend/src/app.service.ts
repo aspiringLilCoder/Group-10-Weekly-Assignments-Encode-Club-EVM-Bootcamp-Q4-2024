@@ -100,10 +100,13 @@ export class AppService {
   }
 
   async mintTokens(address: any) {
-    // TODO: use the server wallet to create a contract instance attached to the smart contract address
-    // TODO: use the signed contract instance to send the Mint tx
-    // TODO: await for tx hash
-    // TODO: return tx hash on success
-    return 'tx-hash';
+    const tx = await this.walletClient.writeContract({
+      address: this.getContractAddress(),
+      abi: tokenJson.abi,
+      functionName: 'mint',
+      args: [address],
+    });
+    await tx.wait();
+    return tx.hash;
   }
 }
