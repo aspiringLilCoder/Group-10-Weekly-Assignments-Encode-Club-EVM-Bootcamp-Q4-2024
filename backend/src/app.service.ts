@@ -6,6 +6,7 @@ import {
   createWalletClient,
   formatEther,
   http,
+  parseEther,
 } from 'viem';
 import { sepolia } from 'viem/chains';
 import { ConfigService } from '@nestjs/config';
@@ -99,11 +100,13 @@ export class AppService {
     return `The address ${address} ${hasRole ? 'has' : 'does not have'} the role ${MINTER_ROLE}`;
   }
 
-  async mintTokens(address: any) {
-    // TODO: use the server wallet to create a contract instance attached to the smart contract address
-    // TODO: use the signed contract instance to send the Mint tx
-    // TODO: await for tx hash
-    // TODO: return tx hash on success
-    return 'tx-hash';
+  async mintTokens(address: Address) {
+    const txHash = await this.walletClient.writeContract({
+      address: this.getContractAddress(),
+      abi: tokenJson.abi,
+      functionName: 'mint',
+      args: [address, parseEther('1')],
+    });
+    return txHash;
   }
 }

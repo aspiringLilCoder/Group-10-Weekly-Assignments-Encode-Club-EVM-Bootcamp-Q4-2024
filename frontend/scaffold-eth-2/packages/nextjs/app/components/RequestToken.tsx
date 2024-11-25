@@ -31,7 +31,7 @@ function RequestTokens(params: { address: string }) {
 
   return (
     <div>
-      <p>Result from API: {data.result ? "worked" : "failed"}</p>
+      <p>Result from API: {data.result}</p>
     </div>
   );
 }
