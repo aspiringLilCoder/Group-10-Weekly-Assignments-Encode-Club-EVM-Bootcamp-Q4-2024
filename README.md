@@ -15,7 +15,7 @@
 
 ## 🧑‍💻Team members:
 
-We refer the members by their discord username for simplicity.
+We refer the members by their discord display name for simplicity.
 
 | ID    |  Discord Username   |
 |---------|-------------------|
