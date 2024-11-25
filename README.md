@@ -27,9 +27,9 @@ We refer the members by their discord username for simplicity.
 ### Set up instructions for Group Members:
 ### 1. FORK the repo and run the following
 ```sh
-git clone https://github.com/<your github username>Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024.git
+git clone https://github.com/<your github username>/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024.git
 cd Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024
-git checkout Week-3
+git checkout Week-4
 ```
 ### 2. create and fill in the following '*.env*' file in the '*backend*', '*frontend/packages/hardhat*', and '*frontend/packages/nextjs*' folders
 ```env
