@@ -4,6 +4,13 @@
 **TokenizedBallot:** 0xCFF30Ee654b977297d78F4Be1AAbb77A1CB7B913 ([Etherscan Link](https://sepolia.etherscan.io//address/0xCFF30Ee654b977297d78F4Be1AAbb77A1CB7B913))
 
 ---
+##  📸 Frontend screenshot: 
+* mintTokens implementation
+![image](https://github.com/user-attachments/assets/64f3a36b-6c3d-4db2-adf2-4d146a15901d)
+* After minting:
+![image](https://github.com/user-attachments/assets/5fc41523-991b-422a-a58c-2e2c2f8e79db)
+
+---
 
 ## ✅ Todolist in order:
 
