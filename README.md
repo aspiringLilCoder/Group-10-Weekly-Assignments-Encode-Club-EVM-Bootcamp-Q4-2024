@@ -4,9 +4,12 @@
 
 ## 👀 Submissions:
 
+* @gleb:
+  * GitHub branch with implementation: https://github.com/aspiringLilCoder/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024/tree/Week-4-gleb
+
 * @cherry:
-  * [GitHub Repo link with implementation](https://github.com/aspiringLilCoder/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024/tree/Week-4-Cherry)
-  * [Deployed TokenizedBallot Etherscan link](https://sepolia.etherscan.io//address/0xCFF30Ee654b977297d78F4Be1AAbb77A1CB7B913)
+  * GitHub branch with implementation: https://github.com/aspiringLilCoder/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024/tree/Week-4-Cherry
+  * Deployed TokenizedBallot Etherscan link: https://sepolia.etherscan.io//address/0xCFF30Ee654b977297d78F4Be1AAbb77A1CB7B913
 
 --- 
 
