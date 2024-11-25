@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-function RequestTokens(params: { address: string }) {
+function RequestTokens(params: { address: string; amount: number }) {
   const [data, setData] = useState<{ result: boolean }>();
   const [isLoading, setLoading] = useState(false);
 
-  const body = { address: params.address };
+  const body = { address: params.address, amount: params.amount };
 
   if (isLoading) return <p>Requesting tokens from API...</p>;
   if (!data)
