@@ -1,6 +1,5 @@
 "use client";
 
-import WalletInfo from "./components/WalletInfo";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
@@ -33,7 +32,6 @@ function PageBody() {
   return (
     <>
       <p className="text-center text-lg">Here we are!</p>
-      <WalletInfo />
     </>
   );
 }
