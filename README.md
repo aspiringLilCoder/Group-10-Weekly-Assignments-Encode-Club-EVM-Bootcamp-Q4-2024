@@ -43,6 +43,6 @@ yarn start
 * Access frontend through `http://localhost:3000/`.
 * Access the MyToken and to-be-deployed contracts through `http://localhost:3000/debug`.
 
-### 3. commit changes!
+### 4. commit changes!
 
 
