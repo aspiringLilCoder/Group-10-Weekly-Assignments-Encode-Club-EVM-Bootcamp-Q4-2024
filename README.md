@@ -27,3 +27,9 @@
 <https://github.com/aspiringLilCoder/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024/tree/Week-4>
 
 ---
+
+## Week 5: 🎰 Lottery
+
+<https://github.com/aspiringLilCoder/Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024/tree/Week-5>
+
+---
