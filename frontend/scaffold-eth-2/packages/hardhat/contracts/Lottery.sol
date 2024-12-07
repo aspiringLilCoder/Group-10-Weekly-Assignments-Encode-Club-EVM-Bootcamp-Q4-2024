@@ -139,4 +139,9 @@ contract Lottery is Ownable {
         paymentToken.burnFrom(msg.sender, amount);
         payable(msg.sender).transfer(amount / purchaseRatio);
     }
+
+    /// @notice Returns an array of all the addresses that have placed bets in the current lottery round
+    function viewBets() public view returns (address[] memory) {
+        return _slots;
+    }
 }
