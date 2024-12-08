@@ -59,7 +59,7 @@ function CheckLotteryState() {
               <p>Closing time: {new Date(Number(betsClosingTime?.toString()) * 1000).toLocaleString()} </p>
               {new Date() > new Date(Number(betsClosingTime) * 1000) && (
                 <button
-                  className="btn btn-active btn-neutral"
+                  className="btn btn-active btn-neutral w-full"
                   onClick={async () => {
                     await writeLottery({
                       functionName: "closeLottery",
