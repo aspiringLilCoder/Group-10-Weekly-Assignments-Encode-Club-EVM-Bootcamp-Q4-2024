@@ -15,7 +15,7 @@ function AccountDetails() {
   return (
     <div className="card w-full bg-primary text-primary-content mt-4">
       <div className="card-body">
-        <h2 className="card-title">AccountDetails</h2>
+        <h2 className="card-title">Account Details</h2>
         {address && (
           <div className="flex flex-col">
             <div>

@@ -23,7 +23,7 @@ function AdminPanel() {
   return (
     <div className="card w-full bg-primary text-primary-content mt-4">
       <div className="card-body">
-        <h2 className="card-title">AdminPanel</h2>
+        <h2 className="card-title">Admin Panel</h2>
         {!betsOpen && (
           <div
             className="flex gap-2 

@@ -35,7 +35,7 @@ function BuyReturnTokens() {
   return (
     <div className="card w-full bg-primary text-primary-content mt-4">
       <div className="card-body">
-        <h2 className="card-title">BuyReturnTokens</h2>
+        <h2 className="card-title">Buy/Return Tokens</h2>
         <div className="flex gap-2 mb-3">
           <button
             className={`btn flex-1 ${mode === Mode.BUY ? "bg-accent" : "bg-transparent"}`}
