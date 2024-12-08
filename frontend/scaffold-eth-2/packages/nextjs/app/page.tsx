@@ -5,6 +5,8 @@ import AdminPanel from "./components/AdminPanel";
 import BuyReturnTokens from "./components/BuyReturnTokens";
 import CheckLotteryState from "./components/CheckLotteryState";
 import type { NextPage } from "next";
+import { useAccount } from "wagmi";
+import { useScaffoldReadContract } from "~~/hooks/scaffold-eth";
 
 const Home: NextPage = () => {
   return (
@@ -23,13 +25,20 @@ const Home: NextPage = () => {
 };
 
 function PageBody() {
+  const { address } = useAccount();
+  const { data: ownerAddress } = useScaffoldReadContract({
+    contractName: "Lottery",
+    functionName: "owner",
+    args: [],
+  });
+
   return (
     <>
       <p className="text-center text-lg">Here we are!</p>
       <AccountDetails />
       <BuyReturnTokens />
       <CheckLotteryState />
-      <AdminPanel />
+      {address == ownerAddress && <AdminPanel />}
     </>
   );
 }
