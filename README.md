@@ -1,6 +1,23 @@
 ## Week 5: 🎰 Lottery
 ---
 
+## 📍 Contract Addresses: 
+**LotteryToken:** 0x9753B6B09baD918F42dA8E86948CaD7C7EE229A1 ([Etherscan Link](https://sepolia.etherscan.io/address/0x9753B6B09baD918F42dA8E86948CaD7C7EE229A1))
+<br><br>
+**Lottery:** 0x250B72f4fB36729513fE68D2b77B16aBa12f2F72 ([Etherscan Link](https://sepolia.etherscan.io/address/0x250B72f4fB36729513fE68D2b77B16aBa12f2F72))
+
+---
+##  📸 Frontend screenshots: 
+![image](https://github.com/user-attachments/assets/e34cf583-8db2-4c25-a027-e352f371bd6c)
+
+![image](https://github.com/user-attachments/assets/fb05e82b-3c00-4ccc-810b-813a0d6a1ae1)
+
+After bets are open & a bet has been placed:
+
+<img src="https://github.com/user-attachments/assets/92a4dc4f-cb5d-4258-83fd-9a610ec505c3"  width="500"/>
+
+---
+
 ## 🧑‍💻Team members:
 
 We refer the members by their discord display name for simplicity.
