@@ -85,11 +85,14 @@ function CheckLotteryState() {
                     onClick={async () => {
                       await writeToken({
                         functionName: "approve",
-                        args: [externalContracts[11155111].Lottery.address, parseEther(betAmount ?? "0")],
+                        args: [
+                          externalContracts[11155111].Lottery.address,
+                          parseEther((Number(betAmount) * 2).toString() ?? "0"),
+                        ],
                       });
                       await writeLottery({
                         functionName: "betMany",
-                        args: [parseEther(betAmount ?? "0")],
+                        args: [betAmount],
                       });
                     }}
                   >
